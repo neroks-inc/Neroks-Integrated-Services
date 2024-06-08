@@ -13,7 +13,7 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <section className="bg-[#faf2f7] bg-cover p-6 scroll-mt-20 my-auto justify-center dark:bg-black">
-      <div className=" bg-white grid justify-around gap-20 p-10 mx-10 rounded-xl sm:flex max-md:gap-10  dark:bg-[#faf2f7] dark:text-black w-fit">
+      <div className=" bg-white grid justify-around gap-10 p-10 mx-10 rounded-xl sm:flex max-md:gap-10  dark:bg-[#faf2f7] dark:text-black w-fit">
         <div>
           <img src={Logo} alt="" className="w-[10rem]" />
           <p className="mt-5">
